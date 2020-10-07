@@ -33,6 +33,11 @@ All audio is monaural 16 kHz[^5], 16-bit[^6], RIFF/WAVE format[^4]
 [^5]: > The sampling rate is 16 kHz  
 [^6]: > stored in 16-bit format.
 
+# Usage
+
+Download latest npVCC2016 from [`Releases`](https://github.com/tarepan/npVCC2016/releases).  
+You can programatically download it with proper release page url. Please check URL of the file.
+
 # Change logs
 
 <!-- This corpus will follow SemVer (x.y.z) system.
@@ -47,3 +52,7 @@ Patch (z) revision do not udpates corpus itself, but change internal tiny things
 
 VCC2016 is Creative Commons License: Attribution 4.0 International.  
 This subset also follow this.
+
+# Dev Guide for future me
+
+When build new zip archive, do it like tar, not compress with (meaningless) top directory, but compress multiple directories directly.
