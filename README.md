@@ -1,6 +1,6 @@
 **npVCC2016 - subset of VCC2016 corpus as non-parallel speech corpus**
 
-`npVCC2016` is subset of VCC2016 dataset.  
+**npVCC2016** corpus is subset of VCC2016 corpus.  
 Original VCC2016 corpus contains parallel utterances, but this subset is intended to be used for non-parallel tasks.  
 Data division is based on ["PARALLEL-DATA-FREE VOICE CONVERSION USING CYCLE-CONSISTENT ADVERSARIAL NETWORKS"](https://arxiv.org/abs/1711.11293).
 
